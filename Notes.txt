@@ -1,0 +1,73 @@
+Full Stack Web Development:
+end-end development of an application
+
+Any application contains
+1. Front End
+2. Back End
+3. Databases
+
+Front-end:
+is User Interface where the users can see and interact with the application
+called as Client-side
+--it is used to create the websites
+--it is used to create structure content on the websites, designs, layouts
+
+1. Html
+2. CSS
+3. JavaScript
+4. React JS
+
+*Html* - Hyper Text Markup Language
+Hyper Text: A Text containing Multiple links(hyper links) <a> </a>
+Markup Language: Specific set of tags by using these we can create Structure content
+Structure content -- is used to create structure content on websites
+--Images, paragraps, headings, links
+
+Head tag is the invisible part to the users
+Only body tag will be visible to end users
+
+Html is a markup language, not a programming and scripting
+
+
+*CSS* - Cascading Style Sheets
+For designing we use css
+To make an application look beautiful
+
+
+*JavaScript*
+Validation is given by JS
+is a high level, loosely or weekly typed, lightweight and scripting language.
+Scripting languages:- the source code directly read by the interpreter.
+Applications:- webpages, mobiles apps, smartwatch, gaming, server side app, database(MongoDB is JS)
+variables:- container or memory blocks to store the values
+3 Variable in JS
+-var:- can be re-initialized
+	can be re-declared
+-let:- can be re-initialized
+	can not be re-declared
+-const:- can not be re-initialized and re-directed.
+
+Ex: var a=10;/ let b=20;/ const c=30; (a,b,c are identifiers)
+	console.log(a,b,c)
+
+Heap area:- memory where all non-static members will be there
+
+console.log():- this output method is used to check the output in the developer tool/ debugging tool.
+
+document.writeln():- this method is used to print the output on the UI.
+
+
+*Datatypes*
+used to mention what kind of data used in the variable.
+Types:-
+1. Primitive datatype:- it can store single values
+			-they are default
+			-String, number, Boolean, null, undefined
+2. Non-primitive datatype:- it can store multiple values
+			-they are user defined
+			-functions, arrays, objects
+string:- sequence of characters enclosed within double quotes / single quotes / backticks(``).
+number:- it sotres all the number data types such as integer , float values etc...
+boolean:- true/false .
+undefined:- any variable decalred but not intitialized.
+null:- empty of object.
