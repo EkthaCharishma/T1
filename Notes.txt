@@ -57,12 +57,12 @@ console.log():- this output method is used to check the output in the developer 
 document.writeln():- this method is used to print the output on the UI.
 
 
-*Datatypes*
+*Datatypes in Java*
 used to mention what kind of data used in the variable.
 Types:-
 1. Primitive datatype:- it can store single values
 			-they are default
-			-String, number, Boolean, null, undefined
+			-String, number, Boolean, null, undefined, Symbol & Bigint
 2. Non-primitive datatype:- it can store multiple values
 			-they are user defined
 			-functions, arrays, objects
@@ -71,3 +71,43 @@ number:- it sotres all the number data types such as integer , float values etc.
 boolean:- true/false .
 undefined:- any variable decalred but not intitialized.
 null:- empty of object.
+
+
+*Operators*
+special type of symbols used to perform some operations on operands.
+Ex:- 2(operand1)*(symbol)3(operand2)
+3 types:- unary, binary, ternary
+
+1. Arithmetic operators:-
+	+,-,*,
+2. Assignment operator:-
+	=,+=,-=,/=,%=,*=
+3. Relational operators:- always return Boolean values
+	==,===,!=,!==(strictly not equals),>,<,>=,<=
+	double equals to is
+	triple equals to is
+4. Logical operators:-
+	AND(&&),OR(||),NOT(!)
+
+
+*Decision making statements*
+	if - we can give only one condition 
+	if-else, else if ladder, switch, ternary condition
+
+
+*Looping statements*
+used to iterate the block of code multiple times.
+1. for - used when iteration count is known, for(initialization; condition; increment/decrement)
+	min iteration count is "0".
+2. while - while(condtion){
+		//statements
+		updation
+	}
+	min iteration count is "0".
+3. do while - do{
+		//statements
+		}while(condition)
+	min iteration count is "1".
+**what are the entry controlled loop and exit controlled loops**
+for and while are entry controlled - condtion is true block will execute
+do while is exit controlled
