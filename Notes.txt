@@ -36,6 +36,7 @@ To make an application look beautiful
 
 *JavaScript*
 Validation is given by JS
+Functionalized language
 is a high level, loosely or weekly typed, lightweight and scripting language.
 Scripting languages:- the source code directly read by the interpreter.
 Applications:- webpages, mobiles apps, smartwatch, gaming, server side app, database(MongoDB is JS)
@@ -110,4 +111,14 @@ used to iterate the block of code multiple times.
 	min iteration count is "1".
 **what are the entry controlled loop and exit controlled loops**
 for and while are entry controlled - condtion is true block will execute
-do while is exit controlled
+do while is exit controlled.
+
+
+*Functions*
+are block of code used to perform  specific task when it is needed.
+can be reuse for n number of times.
+Syntax:- function functoin_name(optional parameters) //function declaration
+		{
+			//statements
+		}
+		function_name(arguments); //function calling
