@@ -122,3 +122,20 @@ Syntax:- function functoin_name(optional parameters) //function declaration
 			//statements
 		}
 		function_name(arguments); //function calling
+note:- without calling the function, the function body will never execute.
+Types:-
+1.named function:- function which is having a name to declare and to invoke
+2.anonymous function:- function which doesnot have a name for declare.
+			- cannot be executed independently.
+3.function expression:- function 
+4.immediate invoke function expression(IIFE):- once the function is created
+					-iife can be executed for only one time.
+5.arrow function:- 
+6.higher order function
+7.callback function
+
+return statement:-
+will return either expression or variables to future use.
+
+implicit return:- 
+explicit return:-
