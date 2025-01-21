@@ -145,3 +145,49 @@ will return either expression or variables to future use.
 
 implicit return:- return
 explicit return:-
+
+
+20/01/25
+*JSON* - JavaScript Object Notation
+Methods:-
+1. JSON.stringify() - convert javascript object to json object
+2. JSON.parse() - convert json object into js object
+
+
+*web storages*
+can store the data inside the browser.
+upto 10MB of data can be stored.
+
+1. Local storage :- a permanent data storage.
+			can store upto 10MB of data.
+			methods:-
+			1.localStorage.setItem("key", "value")
+			2.localStorage.getItem("key")
+			3.localStorage.removeItem()
+			4.localStorage.
+2. session storage:- temporary data storage.
+			can store upto 5MB of data.
+
+**Note:- JavaScript is a synchronous (single threaded language)
+
+// fontawesome icons website
+// fontawesome cdn links
+
+Asynchronous - making javascript to work multiple work simultaneously.
+
+1.setTimeout() - a web api used to perform  asynchronous operation in certain timeout.
+		syntax - setTimeout(callbackfn, timeout);
+2.setInterval() - a web api used to perform async operations for
+		syntax - setInterval(callbackfn, timeinterval);
+3.Promise (es6 feature) - an object which represents eventual completion or failures of asynchronous
+		states of promise:-
+		1.pending - still ongoing
+		2.fulfilled - successfully completed
+		3.rejected - failures
+		syntax - let p=new Promise((resolve, reject)=>{});
+		
+		for handling the promise we have a instance methods,
+		1.then() - used to handle successful data
+		2.catch() - 
+		3.finally() - will execute 
+4.Async & await
