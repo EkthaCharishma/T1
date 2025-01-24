@@ -220,4 +220,15 @@ is used to add, remove, update the content inside the Html document.
 
 innerText:- is a property used to add only text content.
 
-innerHTML:- is a property 
+innerHTML:- is a property used to add content
+
+spread operator:- used to take out each and every value from the original array
+	syntax - [...variable]
+
+
+*Events in JS*
+noting but an action to perform an html elements.
+we have click events, mouse events, key events.
+click events - onclick, onblclick, onsubmit, onchange
+mouse events - onmouseover, onmouse
+key events - 
