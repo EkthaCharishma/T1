@@ -231,4 +231,14 @@ noting but an action to perform an html elements.
 we have click events, mouse events, key events.
 click events - onclick, onblclick, onsubmit, onchange
 mouse events - onmouseover, onmouse
-key events - 
+key events - keypress, keydown, keyup
+
+
+*creation of elements dynamically fro javascript*
+- to create an html element in javascript we use a method called as 
+        "document.createElement("tag name")"
+-in js , we can create a element , we can add a attribute from js itself
+- attribute can be added with a method called as "setAttribute()"
+- to remove attribute we have "removeAttribute()"
+- the element which is craeted in js should be added to html document.
+- to add this element we have a method called as "appendChild()".

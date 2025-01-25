@@ -42,3 +42,17 @@
 // btn.addEventListener("dblclick",()=>{
 //     console.log("Button Clicked 2 times!");
 // })
+
+let bgcolor=document.querySelectorAll(".bgcolor");
+// console.log(bgcolor);
+[...bgcolor].map((element)=>{
+    element.addEventListener("mouseover",()=>{
+        // console.log(element.innerText);
+        element.style.backgroundColor=element.innerText;
+    });
+
+    element.addEventListener("mouseout",()=>{
+        element.style.backgroundColor="transparent";
+    });
+
+})
