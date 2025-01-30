@@ -242,3 +242,29 @@ key events - keypress, keydown, keyup
 - to remove attribute we have "removeAttribute()"
 - the element which is craeted in js should be added to html document.
 - to add this element we have a method called as "appendChild()".
+
+
+*JS Task* - Take array of objects, each object contains empID, empName, empCompany, empSalary & empAddress, where empAddress is again an object which contains empCity, empArea.
+Take 5 values
+print all those values on the UI in the form of table
+
+
+*Modules*
+are like import/export to another js files
+1. Named modules - definetly while importing should use the same name that you are defining exactly. You can export as many modules of code that you want.
+	- Script1.js
+	let name="mru";
+	function greet(){
+	   return "Good morning Students";
+	}
+	export (name, greet}
+	- script2.js
+	import {name} from "./script1.js";
+	import {greet} from "./script1.js";
+	console.log(name);
+	console.log(greet());
+	let message=greet();
+	console.log(message);
+2. Default modules - while importing can use any name that you want. You ca export only one modules of code in one source file. You should use the default keyword while exporting.
+
+Q: create a signup form that contains username(empty), email(@, !empty), password(should be 6) & conform password(same, !empty), once you click on submit button, an alert should be popped up on your screen "form is submitted successfully" if and only if all the details are correct.
