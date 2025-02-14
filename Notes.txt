@@ -28,6 +28,8 @@ Only body tag will be visible to end users
 
 Html is a markup language, not a programming and scripting
 
+is a both client and server side
+
 
 *CSS* - Cascading Style Sheets
 For designing we use css
@@ -268,3 +270,6 @@ are like import/export to another js files
 2. Default modules - while importing can use any name that you want. You ca export only one modules of code in one source file. You should use the default keyword while exporting.
 
 Q: create a signup form that contains username(empty), email(@, !empty), password(should be 6) & conform password(same, !empty), once you click on submit button, an alert should be popped up on your screen "form is submitted successfully" if and only if all the details are correct.
+
+
+*React*
